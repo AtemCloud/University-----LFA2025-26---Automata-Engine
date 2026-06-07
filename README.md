@@ -58,7 +58,7 @@ TRANSITIONS:
 ### 1. Compile
 
 ```bash
-g++ -std=c++17 main.cpp -o automata
+g++ -std=c++17 Automata.cpp -o automata
 ```
 
 ### 2. Run
