@@ -1,0 +1,17 @@
+GAME
+STATES: 0, 1, 2, 3, 4, 5, 6, 7
+ALPHABET: N, S, E, W
+STACK_START: $
+START: 0
+ACCEPT: 6, 7
+TRANSITIONS:
+0, N, ~, 1, K
+1, S, ~, 0, ~
+0, W, K, 2, PK
+0, W, $, 2, $
+2, N, ~, 3, ~
+3, N, ~, 4, ~
+4, W, ~, 5, ~
+5, ~, P, 6, ~
+5, ~, K, 7, ~
+5, ~, $, 7, ~

@@ -1,0 +1,12 @@
+PDA
+STATES: 0, 1, 2
+ALPHABET: a, b
+STACK_START: $
+START: 0
+ACCEPT: 0, 2
+TRANSITIONS:
+0, a, $, 0, a$
+0, a, a, 0, aa
+0, b, a, 1, ~
+1, b, a, 1, ~
+1, ~, $, 2, ~
